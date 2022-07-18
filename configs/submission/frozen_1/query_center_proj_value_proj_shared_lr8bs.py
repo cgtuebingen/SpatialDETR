@@ -1,0 +1,38 @@
+_base_ = ['./base.py', '../../shedules/detr3d.py']
+
+model = dict(
+    pts_bbox_head=dict(
+        transformer=dict(
+            pos_encoding=dict(
+                _delete_=True,
+                type="FixedGeometricEncoding",
+                # encodings are in  sensor coordinates of each cam
+                apply_global_rot=False,
+            ),
+            decoder=dict(
+                shared=True,
+                transformerlayers=dict(
+                    attn_cfgs=[
+                        dict(
+                            type="MultiheadAttention",
+                            embed_dims=256,
+                            num_heads=8,
+                            dropout=0.1,
+                        ),
+                        dict(
+                            type="QueryCenterValueProjectCrossAttention",
+                            embed_dims=256,
+                            num_heads=8,
+                            pc_range={{_base_.point_cloud_range}},
+                            dropout=0.1,
+                        ),
+                    ],
+                )
+            )
+        )
+    )
+)
+optimizer = dict(
+    # lr bs 4 = 2e-4 -> /4 for single elem -> *sqrt(8)
+    lr=2.828427125*(2e-4/2)
+)
