@@ -1,7 +1,12 @@
 # SpatialDETR: Robust Scalable Transformer-Based 3D Object Detection from Multi-View Camera Images with Global Cross-Sensor Attention (ECCV 2022)
 
-![](img/overview.png "Overview")
+![](img/overview.png "Overview")  
+
 This is the official repository for [SpatialDETR](https://uni-tuebingen.de/securedl/sdl-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NjMwODI0NjQsImV4cCI6MTY2MzE3MjQ2MSwidXNlciI6MCwiZ3JvdXBzIjpbMCwtMV0sImZpbGUiOiJmaWxlYWRtaW5cL1VuaV9UdWViaW5nZW5cL0Zha3VsdGFldGVuXC9JbmZvS29nbmlcL1dTSVwvQ29tR3JhcGhcL3B1YmxpY2F0aW9uc1wvMjAyMlwvRUNDVjIwMjItU3BhdGlhbERldHJcL0VDQ1YyMDIyLXNwYXRpYWxfZGV0ci5wZGYiLCJwYWdlIjoyMzczOTl9.iLxLzTD_7W1HiUOYb1RdNqR0o1FPIPXW-JYvC-__st8/ECCV2022-spatial_detr.pdf) which will be published at ECCV 2022.   
+
+
+https://user-images.githubusercontent.com/46648831/190854092-9f9c7fc5-f890-4ec1-809a-9a3807b5993a.mp4  
+
 **Authors**: Simon Doll, Richard Schulz, Lukas Schneider, Viviane Benzin, Markus Enzweiler, Hendrik P.A. Lensch
 ## Abstract
 Based on the key idea of DETR this paper introduces an object-centric 3D object detection framework that operates on a limited number of 3D object queries instead of dense bounding box proposals followed by non-maximum suppression. After image feature extraction a decoder-only transformer architecture is trained on a set-based loss. SpatialDETR infers the classification and bounding box estimates based on attention both spatially within each image and across the different views. To fuse the multi-view information in the attention block we introduce a novel geometric positional encoding that incorporates the view ray geometry to explicitly consider the extrinsic and intrinsic camera setup. This way, the  spatially-aware cross-view attention exploits arbitrary receptive fields to integrate cross-sensor data and therefore global context. Extensive experiments on the nuScenes benchmark demonstrate the potential of global attention and result in state-of-the-art performance.
