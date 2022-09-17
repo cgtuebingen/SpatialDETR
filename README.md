@@ -2,7 +2,7 @@
 
 ![](img/overview.png "Overview")  
 
-This is the official repository for [SpatialDETR](https://uni-tuebingen.de/securedl/sdl-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NjMwODI0NjQsImV4cCI6MTY2MzE3MjQ2MSwidXNlciI6MCwiZ3JvdXBzIjpbMCwtMV0sImZpbGUiOiJmaWxlYWRtaW5cL1VuaV9UdWViaW5nZW5cL0Zha3VsdGFldGVuXC9JbmZvS29nbmlcL1dTSVwvQ29tR3JhcGhcL3B1YmxpY2F0aW9uc1wvMjAyMlwvRUNDVjIwMjItU3BhdGlhbERldHJcL0VDQ1YyMDIyLXNwYXRpYWxfZGV0ci5wZGYiLCJwYWdlIjoyMzczOTl9.iLxLzTD_7W1HiUOYb1RdNqR0o1FPIPXW-JYvC-__st8/ECCV2022-spatial_detr.pdf) which will be published at ECCV 2022.   
+This is the official repository for [SpatialDETR](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/veroeffentlichungen/publications-since-2012/spatialdetr-robust-scalable-transformer-based-3d-object-detection-from-multi-view-camera-images-with-global-cross-sensor-attention/) which will be published at ECCV 2022.   
 
 
 https://user-images.githubusercontent.com/46648831/190854092-9f9c7fc5-f890-4ec1-809a-9a3807b5993a.mp4  
@@ -21,7 +21,7 @@ If you find this repository useful, please cite
 }
 ```
 
-[You can find the Paper here](https://uni-tuebingen.de/securedl/sdl-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NjMwODI0NjQsImV4cCI6MTY2MzE3MjQ2MSwidXNlciI6MCwiZ3JvdXBzIjpbMCwtMV0sImZpbGUiOiJmaWxlYWRtaW5cL1VuaV9UdWViaW5nZW5cL0Zha3VsdGFldGVuXC9JbmZvS29nbmlcL1dTSVwvQ29tR3JhcGhcL3B1YmxpY2F0aW9uc1wvMjAyMlwvRUNDVjIwMjItU3BhdGlhbERldHJcL0VDQ1YyMDIyLXNwYXRpYWxfZGV0ci5wZGYiLCJwYWdlIjoyMzczOTl9.iLxLzTD_7W1HiUOYb1RdNqR0o1FPIPXW-JYvC-__st8/ECCV2022-spatial_detr.pdf)
+[You can find the Paper here](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/veroeffentlichungen/publications-since-2012/spatialdetr-robust-scalable-transformer-based-3d-object-detection-from-multi-view-camera-images-with-global-cross-sensor-attention/)
 ## Setup
 To setup the repository and run trainings we refer to [getting_started.md](getting_started.md)
 
