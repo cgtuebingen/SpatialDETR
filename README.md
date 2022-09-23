@@ -2,7 +2,7 @@
 
 ![](img/overview.png "Overview")  
 
-This is the official repository for [SpatialDETR](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/veroeffentlichungen/publications-since-2012/spatialdetr-robust-scalable-transformer-based-3d-object-detection-from-multi-view-camera-images-with-global-cross-sensor-attention/) which will be published at ECCV 2022.   
+This is the official repository for [SpatialDETR](https://markus-enzweiler.de/downloads/publications/ECCV2022-spatial_detr.pdf) which will be published at ECCV 2022.   
 
 
 https://user-images.githubusercontent.com/46648831/190854092-9f9c7fc5-f890-4ec1-809a-9a3807b5993a.mp4  
@@ -21,7 +21,7 @@ If you find this repository useful, please cite
 }
 ```
 
-[You can find the Paper here](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/computergrafik/lehrstuhl/veroeffentlichungen/publications-since-2012/spatialdetr-robust-scalable-transformer-based-3d-object-detection-from-multi-view-camera-images-with-global-cross-sensor-attention/)
+[You can find the Paper here](https://markus-enzweiler.de/downloads/publications/ECCV2022-spatial_detr.pdf)
 ## Setup
 To setup the repository and run trainings we refer to [getting_started.md](getting_started.md)
 
