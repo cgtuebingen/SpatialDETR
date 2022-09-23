@@ -28,7 +28,7 @@ To setup the repository and run trainings we refer to [getting_started.md](getti
 ## Changelog
 ### 06/22
 - We moved the codebase to the new coordinate conventions of `mmdetection3d rc1.0ff`
-- The performancy might slightly vary compared to the original runs on `mmdetection3d 0.17` reported in the paper
+- The performance might slightly vary compared to the original runs on `mmdetection3d 0.17` reported in the paper
 
 
 ## Experimental results
