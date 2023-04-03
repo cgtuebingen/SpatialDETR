@@ -28,14 +28,14 @@ To setup the repository and run trainings we refer to [getting_started.md](getti
 ## Changelog
 ### 06/22
 - We moved the codebase to the new coordinate conventions of `mmdetection3d rc1.0ff`
-- The performance might slightly vary compared to the original runs on `mmdetection3d 0.17` reported in the paper
+- The performancy might slightly vary compared to the original runs on `mmdetection3d 0.17` reported in the paper
 
 
 ## Experimental results
 The baseline models have been trained on `4xV100 GPUs`, the submission models on `8xA100 GPUs`. For more details we refer to the corresponding configuration / log files. Keep in mind that the performance can vary between runs and that the current codebase uses `mmdetection3d@rc1.0`
 | Config  | Logfile | Set | #GPUs| mmdet3d | mAP | ATE | ASE | AOE | AVE | AAE | NDS|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---| --- |
-| [query_proj_value_proj.py (baseline)](configs/submission/frozen_4/query_proj_value_proj.py)  | [log](training_logs/frozen_4/query_proj_value_proj.log) / [model](https://drive.google.com/file/d/1Tm6M0e-8QYBUeqwBwYpJk1EwxQbyZl6M/view?usp=sharing) | val | 4 | rc1.0 | 0.315 | 0.839 | 0.274 | 0.484 | 0.810 | 0.217 | 0.395 |
+| [query_proj_value_proj.py (baseline)](configs/submission/frozen_4/query_proj_value_proj.py)  | [log](training_logs/frozen_4/query_proj_value_proj.log) / [model](https://drive.google.com/file/d/1Tm6M0e-8QYBUeqwBwYpJk1EwxQbyZl6M/view?usp=sharing) | val | 4 | rc1.0 | 0.315 | 0.843 | 0.279 | 0.497 | 0.787 | 0.208 | 0.396 |
 | [query_proj_value_proj.py](configs/submission/frozen_4/query_proj_value_proj.py)  | [log](training_logs/frozen_4/query_proj_value_proj_0_17.log) | val | 4 | 0.17 | 0.313 | 0.850 | 0.274 | 0.494 | 0.814 | 0.213 | 0.392 |
 | [query_center_proj_no_value_proj_shared.py](configs/submission/frozen_1/query_center_proj_no_value_proj_shared.py)  | [log](training_logs/frozen_1/query_center_proj_no_value_proj_shared.log) | val | 8 | 0.17 | 0.351 | 0.772 | 0.274 | 0.395 | 0.847 | 0.217 | 0.425
 | [query_center_proj_no_value_proj_shared_cbgs_vovnet_trainval.py](configs/submission/frozen_1/query_center_proj_no_value_proj_shared_cbgs_vovnet_trainval.py)  |[log](training_logs/frozen_1/query_center_proj_no_value_proj_shared_cbgs_vovnet_trainval.log)| test | 8 | 0.17| 0.425 | 0.614 | 0.253 | 0.402 | 0.857 | 0.131 | 0.487
